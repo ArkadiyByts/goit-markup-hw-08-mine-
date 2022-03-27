@@ -8,4 +8,46 @@
 }
 body {
     font-family: var(--main-font);
+    
+}
+/* HEADER */
+.logo-up {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.logocolor {
+    color: var(--blue-color);
+}
+.nav-list {
+    list-style: none;
+}
+.nav-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.emailtel{
+    list-style: none;
+}
+.emailtel-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--grey-color);
+}
+.emailtel-link:hover,
+.emailtel-link:focus,
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: var(--blue-color);
 }
