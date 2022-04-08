@@ -10,9 +10,49 @@ body {
     font-family: var(--main-font);
     
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+p {
+   
+    padding: 0;
+}
+/* dodac tu cos */
+ .list {
+    list-style: none;
+}
+/* dodac tu cos */
+.link {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+.container {
+    /* width: 1600px; */
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+}
 /* HEADER (webstudio+portfolio)------- */
 
+.header .container {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .logo-up {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -21,12 +61,21 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--main-color);
+    margin-right: 93px;
+    
 }
 .logo-color {
     color: var(--blue-color);
 }
+.nav {
+    
+}
 .nav-list {
     list-style: none;
+    display: flex;
+}
+.nav-list-item:not(:last-child) {
+    margin-right: 46px;
 }
 .nav-list-link {
     font-weight: 500;
@@ -38,6 +87,12 @@ body {
 }
 .email-tel{
     list-style: none;
+    display: flex;
+    margin-left: auto;
+    
+}
+.email-tel-item:not(:last-child) {
+    margin-right: 50px;
 }
 .email-tel-link {
     font-weight: 500;
@@ -80,6 +135,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    /* box-sizing: border-box; */
 }
 .lorem-list {
     list-style: none;
