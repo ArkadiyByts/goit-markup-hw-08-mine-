@@ -212,6 +212,9 @@ img {
     background-color: #F5F4FA;
     padding-top: 94px;
 }
+.staff .container {
+    background-color: #F5F4FA;
+}
 .staff-title-container {
     display: flex;
     justify-content: center;
@@ -264,10 +267,11 @@ img {
 /* FOOTER (webstudio+portfolio)---------- */
 
 .footer {
-    background-color: #2F303A;
+    
 }
 .footer .container {
     padding: 60px 0 60px 215px;
+    background-color: #2F303A;
 }
 .logo-down {
     font-family: var(--secondary-font);
