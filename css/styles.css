@@ -47,6 +47,7 @@ img {
 }
 .section {
     padding-bottom: 94px;
+    width: auto
 }
 /* HEADER (webstudio+portfolio)------- */
 
@@ -210,10 +211,12 @@ img {
 }
 .staff {
     background-color: #F5F4FA;
-    padding-top: 94px;
+    padding: 0;
 }
 .staff .container {
     background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .staff-title-container {
     display: flex;
