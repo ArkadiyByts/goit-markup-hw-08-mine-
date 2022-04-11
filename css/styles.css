@@ -52,13 +52,17 @@ img {
 }
 /* HEADER (webstudio+portfolio)------- */
 
+.header {
+    border: 1px solid #ECECEC;
+}
 .header .container {
+    max-width: 1158px;
     display: flex;
     align-items: center;
     /* padding: 25px 227px 25px 215px; */
-    padding: 25px 14.18% 25px 13.43%;
-    /* padding: 25px 0 25px 0; */
-    border: 1px solid #ECECEC;
+    /* padding: 25px 14.18% 25px 13.43%; */
+    padding: 25px 0 25px 0;
+    
 }
 .logo-up {
     font-family: var(--secondary-font);
@@ -275,11 +279,12 @@ img {
 /* FOOTER (webstudio+portfolio)---------- */
 
 .footer {
-    
+    background-color: #2F303A;
 }
 .footer .container {
-    padding: 60px 0 60px 215px;
-    background-color: #2F303A;
+    max-width: 1158px;
+    padding: 60px 0 60px 0;
+    
 }
 .logo-down {
     font-family: var(--secondary-font);
