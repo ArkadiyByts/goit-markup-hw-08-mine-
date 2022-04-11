@@ -52,6 +52,9 @@ img {
 }
 /* HEADER (webstudio+portfolio)------- */
 
+.header {
+    border: 1px solid #ECECEC;
+}
 .header .container {
     width: 1158px;
     display: flex;
@@ -59,7 +62,7 @@ img {
     /* padding: 25px 227px 25px 215px; */
     /* padding: 25px 14.18% 25px 13.43%; */
     padding: 25px 0 25px 0;
-    border: 1px solid #ECECEC;
+    
 }
 .logo-up {
     font-family: var(--secondary-font);
