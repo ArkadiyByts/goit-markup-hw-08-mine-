@@ -117,12 +117,20 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--grey-color);
+    display: flex;
+    align-items: center;
+    fill: var(--grey-color);
+}
+.envelope,
+.phone {
+    margin-right: 10px;
 }
 .email-tel-link:hover,
 .email-tel-link:focus,
 .nav-list-link:hover,
 .nav-list-link:focus {
     color: var(--blue-color);
+    fill: var(--blue-color);
 }
 
 /* END OF HEADER (webstudio+portfolio)------- */
@@ -191,10 +199,24 @@ img {
 .lorem-list {
     list-style: none;
     display: flex;
-
 }
 .lorem-list-item {
     max-width: 270px;
+}
+.lorem-svg-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4FA;
+    min-width: 270px;
+    min-height: 120px;
+    border-radius: 4px;
+    border: var(--white-color) solid;
+    margin-bottom: 30px;
+}
+.lorem-svg-color:hover,
+.lorem-svg-color:focus {
+    border: var(--blue-color) solid;
 }
 .lorem-list-item:not(:last-child) {
     margin-right: 30px;
@@ -303,6 +325,47 @@ img {
     background-color: var(--white-color);
     border-radius: 50%;
     display: flex;
+    fill: #AFB1B8;
+}
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--blue-color);
+    fill: var(--white-color);
+}
+.customers {
+    padding-top: 94px;
+}
+.customer-title-container {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.customer-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+}
+.customer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.customer-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 170px;
+    min-height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+}
+.customer-list-item:hover,
+.customer-list-item:focus {
+    border-color: var(--blue-color);
+    fill: var(--blue-color);
+    cursor: pointer;
 }
 
 /* END OF MAIN (webstudio)---------------------- */
@@ -313,9 +376,10 @@ img {
     background-color: #2F303A;
 }
 .footer .container {
-    width: 1158px;
+    width: 1200px;
     padding: 60px 0 60px 0;
-    
+    display: flex;
+    align-items: flex-start;
 }
 .logo-down {
     font-family: var(--secondary-font);
@@ -360,6 +424,34 @@ img {
 .adr-hover:hover,
 .adr-hover:focus {
     color: var(--blue-color);
+}
+.footer-social-cont {
+    padding-top: 12px;
+    margin-left: 70px;
+}
+.footer-social-title {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.footer-social-list {
+    display: flex;
+    margin-top: 20px;
+}
+.footer-social-link-item:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-social-link {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+    display: flex;
+    fill: var(--white-color);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: var(--blue-color);
+    
 }
 
 /* END OF FOOTER (webstudio+portfolio)------- */
