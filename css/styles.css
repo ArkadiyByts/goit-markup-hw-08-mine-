@@ -214,8 +214,8 @@ img {
     border: var(--white-color) solid;
     margin-bottom: 30px;
 }
-.lorem-svg-color:hover,
-.lorem-svg-color:focus {
+.lorem-svg-card:hover,
+.lorem-svg-card:focus {
     border: var(--blue-color) solid;
 }
 .lorem-list-item:not(:last-child) {
@@ -519,7 +519,14 @@ img {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     margin: 0;
-    
+}
+.pictures-sec-list-card:hover,
+.pictures-sec-list-card:focus {
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .pictures-sec-list-name {
     font-weight: 700;
