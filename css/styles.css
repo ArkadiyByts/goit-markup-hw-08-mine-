@@ -100,6 +100,16 @@ img {
 .active-agencja {
     color: var(--blue-color);
 }
+.active-agencja::after {
+    content: '';
+    width: 53px;
+    height: 4px;
+    background:var(--blue-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 79px;
+    left: 291px;
+}
 .email-tel{
     list-style: none;
     display: flex;
@@ -124,6 +134,7 @@ img {
 .envelope,
 .phone {
     margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .email-tel-link:hover,
 .email-tel-link:focus,
@@ -132,6 +143,12 @@ img {
     color: var(--blue-color);
     fill: var(--blue-color);
 }
+.email-tel-link,
+.nav-list-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
 
 /* END OF HEADER (webstudio+portfolio)------- */
 
@@ -213,6 +230,7 @@ img {
     border-radius: 4px;
     border: var(--white-color) solid;
     margin-bottom: 30px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lorem-svg-card:hover,
 .lorem-svg-card:focus {
@@ -326,6 +344,8 @@ img {
     border-radius: 50%;
     display: flex;
     fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -360,6 +380,8 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     fill: #AFB1B8;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-list-item:hover,
 .customer-list-item:focus {
@@ -421,6 +443,9 @@ img {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.adr-hover {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .adr-hover:hover,
 .adr-hover:focus {
     color: var(--blue-color);
@@ -447,6 +472,7 @@ img {
     border-radius: 50%;
     display: flex;
     fill: var(--white-color);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -460,6 +486,17 @@ img {
 
 .active-page-color {
     color: var(--blue-color);
+    
+}
+.nav-list-item .active-page-color::after {
+    content: '';
+    width: 58px;
+    height: 4px;
+    background:var(--blue-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 79px;
+    left: 30.7%;
 }
 
 /* END OF HEADER (portfolio)------------------------- */
@@ -485,6 +522,7 @@ img {
     /* text-align: center; */
     letter-spacing: 0.03em;
     padding: 6px 22px;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btm-section-list-item:not(:last-child) {
     margin-right: 8px;
@@ -519,6 +557,7 @@ img {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     margin: 0;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .pictures-sec-list-card:hover,
 .pictures-sec-list-card:focus {
