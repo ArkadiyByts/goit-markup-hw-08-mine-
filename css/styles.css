@@ -97,19 +97,6 @@ img {
     text-decoration: none;
     color: var(--main-color);
 }
-.active-agencja {
-    color: var(--blue-color);
-}
-.active-agencja::after {
-    content: '';
-    width: 53px;
-    height: 4px;
-    background:var(--blue-color);
-    border-radius: 2px;
-    position: absolute;
-    top: 79px;
-    left: 291px;
-}
 .email-tel{
     list-style: none;
     display: flex;
@@ -151,6 +138,25 @@ img {
 
 
 /* END OF HEADER (webstudio+portfolio)------- */
+
+/* ---HEADER |(STUDIO) */
+.active-parent-agencja {
+    position: relative;
+}
+.active-agencja {
+    color: var(--blue-color);
+}
+.active-agencja::after {
+    content: '';
+    width: 53px;
+    height: 4px;
+    background:var(--blue-color);
+    border-radius: 2px;
+    position: absolute;
+    top: 47px;
+    left: 0;
+}
+/* ---END OF HEADER (STUDIO) */
 
 /* MAIN (webstudio)-------------------------- */
 
@@ -204,7 +210,16 @@ img {
     line-height: 1.87;
     display: block;
     margin: 0 auto;
-    
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #F5F4FA;
+    color: var(--main-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 1px 2px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 .lorem {
     padding-top: 94px;
@@ -488,15 +503,18 @@ img {
     color: var(--blue-color);
     
 }
-.nav-list-item .active-page-color::after {
+.active-parent-portfolio {
+    position: relative;
+}
+.active-page-color::after {
     content: '';
     width: 58px;
     height: 4px;
     background:var(--blue-color);
     border-radius: 2px;
     position: absolute;
-    top: 79px;
-    left: 30.7%;
+    top: 47px;
+    left: -3px;
 }
 
 /* END OF HEADER (portfolio)------------------------- */
@@ -586,3 +604,44 @@ img {
 }
 
 /* END OF MAIN (portfolio)-------------------------- */
+
+/* -----BACKDROP---- */
+
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 528px;
+    min-height: 581px;
+    background-color: var(--white-color);
+}
+.close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* -----END OF BACKDROP---- */
