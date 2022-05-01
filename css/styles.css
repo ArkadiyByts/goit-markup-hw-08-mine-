@@ -668,7 +668,8 @@ img {
     transform: translate(-50%,-50%);
     width: 528px;
     min-height: 581px;
-    background-color: var(--white-color); 
+    background-color: var(--white-color);
+    padding: 40px; 
     
 }
 .modal-form {
@@ -679,6 +680,21 @@ img {
     display: flex;
     flex-direction: column;
 }
+.name-form-li {
+    position: relative;
+}
+.person-black-svg {
+    position: absolute;
+    bottom: 21px;
+    left: 12px;
+}
+.user-name {
+    margin: 4px 0 10px 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    padding-left: 42px; 
+    height: 40px; 
+}
+
 .close-btn {
     display: flex;
     justify-content: center;

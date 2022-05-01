@@ -392,7 +392,7 @@
         </div>
         
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidde" data-modal>
         <div class="modal">
             <button type="button" class="close-btn" data-modal-close>
                 <svg class="close-btn-svg" width="18" height="18">
@@ -402,9 +402,12 @@
             <h3>Zostaw swoje dane w formularzu poniżej</h3>
             <form class="modal-form">
                 <ul>
-                    <li class="modal-form-item">
+                    <li class="modal-form-item name-form-li">
                         <label for="username">Imie</label>
-                        <input type="text" name="username" id="username" minlength="5" maxlength="12" />
+                        <svg class="person-black-svg" width="18" height="18">
+                            <use href="images/sprite.svg#icon-person-black"></use>
+                        </svg>
+                        <input class="user-name" type="text" name="username" id="username" minlength="5" maxlength="12" />
                     </li>
                     <li class="modal-form-item"> 
                         <label for="tel">Telefon</label>
