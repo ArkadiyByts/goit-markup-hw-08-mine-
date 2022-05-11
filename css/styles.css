@@ -56,11 +56,9 @@ img {
     border: 1px solid #ECECEC;
 }
 .header .container {
-    width: 1158px;
+    width: 1200px;
     display: flex;
     align-items: center;
-    /* padding: 25px 227px 25px 215px; */
-    /* padding: 25px 14.18% 25px 13.43%; */
     padding: 25px 0 25px 0;
     
 }
@@ -79,11 +77,9 @@ img {
 .logo-color {
     color: var(--blue-color);
 }
-.nav {
-    
-}
+
 .nav-list {
-    list-style: none;
+    
     display: flex;
 }
 .nav-list-item:not(:last-child) {
@@ -98,7 +94,7 @@ img {
     color: var(--main-color);
 }
 .email-tel{
-    list-style: none;
+    
     display: flex;
     margin-left: auto;
     /* margin-right: 14.18%; */
