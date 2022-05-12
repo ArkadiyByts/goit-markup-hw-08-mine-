@@ -1,0 +1,6 @@
+.social-link-list {
+    display: flex;
+}
+.social-link-item:not(:last-child) {
+    margin-right: 10px;
+}

@@ -1,0 +1,6 @@
+.footer-social-list {
+    display: flex;
+}
+.footer-social-link-item:not(:last-child) {
+    margin-right: 10px;
+}

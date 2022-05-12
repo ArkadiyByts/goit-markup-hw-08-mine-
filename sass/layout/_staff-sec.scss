@@ -1,0 +1,23 @@
+.staff {
+    background-color: #F5F4FA;
+    padding: 0;
+
+    & .container {
+        background-color: #F5F4FA;
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}   
+.staff-title-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.staff-list {
+    display: flex;
+    justify-content: center;
+}
+.staff-list-item:not(:last-child) {
+    margin-right: 30px;
+}

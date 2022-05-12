@@ -1,0 +1,42 @@
+.newsletter-form {
+    position: relative;
+} 
+.newsletter-email-input {
+    min-width: 358px;
+    min-height: 50px;
+    padding-left: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--white-color);
+
+    &::placeholder {
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.newsletter-submit-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #FFFFFF;
+    min-width: 200px;
+    min-height: 50px;
+    padding-left: 40px;
+    margin-left: 8px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.send-icon {
+    position: absolute;
+    right: 32px;
+    top: 13px;
+    pointer-events: none;
+}

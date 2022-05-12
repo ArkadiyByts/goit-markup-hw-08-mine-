@@ -1,0 +1,27 @@
+.lorem {
+    padding-top: 94px;
+
+    & .container {
+        display: flex;
+        justify-content: center;
+    }
+}
+.lorem-list {
+    display: flex;
+}
+.lorem-list-item {
+    max-width: 270px;
+    
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.lorem-svg-card {
+    margin-bottom: 30px;
+}
+
+
+.lorem-list-title {
+    margin-bottom: 20px;
+}

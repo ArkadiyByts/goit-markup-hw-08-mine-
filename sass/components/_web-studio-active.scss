@@ -1,0 +1,17 @@
+.active-parent-agencja {
+    position: relative;
+}
+.active-agencja {
+    color: var(--blue-color);
+
+    &::after {
+        content: '';
+        width: 53px;
+        height: 4px;
+        background:var(--blue-color);
+        border-radius: 2px;
+        position: absolute;
+        top: 47px;
+        left: 0;
+    }
+}

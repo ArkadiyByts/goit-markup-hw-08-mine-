@@ -1,0 +1,8 @@
+.btm-section-list {
+    display: flex;
+    justify-content: center;
+}
+
+.btm-section-list-item:not(:last-child) {
+    margin-right: 8px;
+}
