@@ -1,13 +1,15 @@
 .customers {
     padding-top: 94px;
-}
-.customer-title-container {
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
+
+    &__title-container {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
-.customer-list {
+
+.logotypes {
     display: flex;
     justify-content: space-between;
 }

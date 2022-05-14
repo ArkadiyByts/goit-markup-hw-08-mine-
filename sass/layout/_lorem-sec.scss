@@ -1,27 +1,28 @@
 .lorem {
     padding-top: 94px;
 
-    & .container {
+    &__container {
         display: flex;
         justify-content: center;
     }
 }
-.lorem-list {
+.lorem__list {
     display: flex;
 }
-.lorem-list-item {
+.lorem__item {
     max-width: 270px;
     
     &:not(:last-child) {
         margin-right: 30px;
     }
+
+    &-undertitle {
+        margin-bottom: 20px;
+    }
 }
 
-.lorem-svg-card {
+.icon-box {
     margin-bottom: 30px;
 }
 
 
-.lorem-list-title {
-    margin-bottom: 20px;
-}

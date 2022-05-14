@@ -1,7 +1,7 @@
-.pictures-sec-list-card {
+.picture-card {
     width: 370px;
     height: 404px;
-    background-color: var(--white-color);
+    background-color: $whiteColor;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     margin: 0;
@@ -15,21 +15,22 @@
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     }
-}
-.pictures-sec-list-name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    margin-top: 20px;
-    margin-left: 24px;
-}
-.pictures-sec-list-desrip {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.03em;
-    color: var(--grey-color);
-    margin-top: 4px;
-    margin-left: 24px;
+
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        margin-top: 20px;
+        margin-left: 24px;
+    }
+    &__desrip {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: $greyColor;
+        margin-top: 4px;
+        margin-left: 24px;
+    }
 }

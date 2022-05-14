@@ -1,23 +1,28 @@
+
+$bgColor: #F5F4FA;
+
 .staff {
-    background-color: #F5F4FA;
+    background-color: $bgColor;
     padding: 0;
 
-    & .container {
-        background-color: #F5F4FA;
+    &__container {
+        background-color: $bgColor;
         padding-top: 94px;
         padding-bottom: 94px;
     }
 }   
-.staff-title-container {
+.staff__title-container {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.staff-list {
+.employees {
     display: flex;
     justify-content: center;
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-.staff-list-item:not(:last-child) {
-    margin-right: 30px;
-}
+    

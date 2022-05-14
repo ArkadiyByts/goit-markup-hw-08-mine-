@@ -1,4 +1,4 @@
-.customer-list-item {
+.logotypes__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +12,8 @@
 
     &:hover,
     &:focus {
-        border-color: var(--blue-color);
-        fill: var(--blue-color);
+        border-color: $blueColor;
+        fill: $blueColor;
         cursor: pointer;
     }
 }

@@ -1,4 +1,4 @@
-.order-btn-sec {
+.order-section {
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
@@ -10,13 +10,13 @@
     padding-top: 200px;
 
 
-    & .container {
+    &__container {
         display: flex;
         flex-direction: column;
         justify-content: center;  
     }
 }
-.main-title-container {
+.main-title {
     
     margin-bottom: 30px;
     max-width: 696px;

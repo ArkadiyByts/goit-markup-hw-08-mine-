@@ -1,7 +1,7 @@
-.newsletter-form {
+.newsletter__form {
     position: relative;
 } 
-.newsletter-email-input {
+.newsletter__input {
     min-width: 358px;
     min-height: 50px;
     padding-left: 16px;
@@ -9,14 +9,14 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
-    color: var(--white-color);
+    color: $whiteColor;
 
     &::placeholder {
         color: rgba(255, 255, 255, 0.6);
     }
 }
 
-.newsletter-submit-btn {
+.newsletter__submit-btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;

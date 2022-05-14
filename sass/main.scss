@@ -1,12 +1,12 @@
+@import "./utils/variables";
+
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
 @import "./components/backdrop";
 @import "./components/modal";
 
-@import "./components/logo-up";
-@import "./components/web-studio-active";
-@import "./components/portfolio-active";
+@import "./components/logo";
 @import "./components/main-title";
 @import "./components/modal-btn";
 @import "./components/lorem-icon";
@@ -23,7 +23,6 @@
 @import "./components/customers-title";
 @import "./components/customers-icon";
 @import "./components/footer-logo-adr-card";
-@import "./components/logo-down";
 @import "./components/address";
 @import "./components/footer-social-card";
 @import "./components/footer-social-title";

@@ -1,6 +1,6 @@
-.social-link {
+.socials__link {
     padding: 12px;
-    background-color: var(--white-color);
+    background-color: $whiteColor;
     border-radius: 50%;
     display: flex;
     fill: #AFB1B8;
@@ -9,7 +9,7 @@
 
     &:hover,
     &:focus {
-        background-color: var(--blue-color);
-        fill: var(--white-color);
+        background-color: $blueColor;
+        fill: $whiteColor;
     }
 }
