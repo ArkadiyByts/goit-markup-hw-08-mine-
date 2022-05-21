@@ -1,6 +1,51 @@
 .container {
-    max-width: 1200px;
-    padding: 0;
-    align-items: center;
-    margin: 0 auto;
+    max-width: 480px;
+    padding: 0 15px;
 }
+
+.order-section__container {
+    padding: 118px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lorem__container {
+        display: flex;
+        justify-content: center;
+    }
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    .order-section__container {
+        padding: 200px 0;
+    }
+}
+
+
+
+
+
+// .container {
+//     max-width: 1200px;
+//     padding: 0;
+//     align-items: center;
+//     margin: 0 auto;
+
+//     .order-section__& {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;  
+//     }
+// }

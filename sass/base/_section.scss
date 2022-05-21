@@ -1,4 +1,16 @@
 .section {
-    padding-bottom: 94px;
-    width: auto
+    margin-bottom: 60px;
 }
+
+@media screen and (min-width: 1200px) {
+    .section {
+        margin-bottom: 94px;
+    }
+}
+
+
+// .section {
+//     
+//     width: auto
+    
+// }

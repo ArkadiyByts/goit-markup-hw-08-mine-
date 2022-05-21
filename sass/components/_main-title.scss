@@ -1,8 +1,29 @@
-.main-title__text {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+.main-title {
+    margin-bottom: 30px;
+
+    
+    &__text {
+        width: 365px;
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $whiteColor;
+    }
 }
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .main-title__text {
+        width: 696px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: $whiteColor;
+    }
+}
+
+
+

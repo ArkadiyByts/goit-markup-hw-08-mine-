@@ -2,25 +2,41 @@
     background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
-    url("../images/theme.jpg");
+    url("../images/theme480.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #2F303A;
-    padding-bottom: 200px;
-    padding-top: 200px;
 
+}
 
-    &__container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;  
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .order-section {
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../images/theme768.jpg");
     }
 }
-.main-title {
-    
-    margin-bottom: 30px;
-    max-width: 696px;
-    height: 120px;
-    
-    
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .order-section {
+        background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../images/theme.jpg");
+    }
 }
+
+
+
+
+
+
+// .order-section {
+//     background-image: linear-gradient(
+//     rgba(47, 48, 58, 0.4),
+//     rgba(47, 48, 58, 0.4)),
+//     url("../images/theme.jpg");
+//     background-repeat: no-repeat;
+//     background-position: center;
+
+
